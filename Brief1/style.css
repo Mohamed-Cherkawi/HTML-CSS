@@ -5,5 +5,5 @@ body {
  p {
         margin: 100px;
         margin-top: auto;
-      
+        font-family: 'Courier New', Courier, monospace;
     }
