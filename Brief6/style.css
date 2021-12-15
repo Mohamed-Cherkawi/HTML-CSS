@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+body {
+    background-color: #FBF7EE;
+    width:90% ;
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+
+}
+/* Navigation Bar (Header */
+.logo{
+    width: 81px;
+    height: 32px;
+}
+header nav,img{
+    align-items: center;
+}
+
+header{
+    border: 2px solid black;
+    display: inline-block;
+    width: 100%;
+    
+}
+header nav,img,ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    color: #13366D;
+}
+header ul li a{
+    text-decoration: none;
+    margin: 10px;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+li a{
+    font-weight: bold;
+    color: #13366D;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+
+}
+li a:hover{
+    text-decoration: underline;
+    color: #13366D;
+
+}
+header div a,button{
+    padding: 10px;
+}
+div a{
+    text-decoration: none;
+    color: #13366D;
+    font-weight: bold;
+    font-size: 18px;
+  
+}
+div button{
+    background-color:#0B48A8;
+    color: white;
+    border-radius: 4px;
+    padding:7px;
+}
+
+/* Section 1 */
+
+.section1 {
+    border: 2px solid red;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+}
+.trial {
+    width:45% ;
+    padding-top: 60px;
+   
+}
+.item {
+    height: 80%;
+}
+
+.imagearea {
+    background-image: url(BG\ Hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+}
+h1 {
+   color: #13366D;
+}
+h2 , span{
+    font-weight: bold;
+}
+p {
+    margin-top: 50px;
+}
+    input {
+        width: 50%;
+        padding: 5px;
+    }
+   .section1 button{
+        background-color:#0B48A8;
+        color: white;
+        border-radius: 3px;
+        padding:7px;
+        margin: 5px;
+        border: 0px;
+    }
+    .trialsInfo {
+        display: flex;
+        margin-top: 0px;
+        
+    }
+    .trialsInfo img {
+        height: 8px;
+    }
+    .trialsInfo p {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-right: 10px;
+    
+    }
+    /* Section 2 */
+    .section2 {
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+        margin-top: 40px;
+    }
+    .article {
+        border: 3px solid #B8B8B8;
+        border-radius: 4px;
+        width: 20%;
+        padding: 0px 10px 0px 10px;
+        background-color: white;
+    }

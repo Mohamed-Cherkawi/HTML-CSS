@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+
+body{
+    width: 80%;
+    margin: auto;
+    background-color:#FBF7EE;
+    font-family: 'Karla', sans-serif;
+}
+/* Heaaderrrrrrrrr ****/
+.logo{
+    width: 81px;
+    height: 32px;
+}
+header nav,img{
+    align-items: center;
+}
+
+header{
+    display: inline-block;
+    width: 100%;
+}
+header nav,img,ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    color: #13366D;
+}
+header ul li a{
+    text-decoration: none;
+    margin: 10px;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+li a{
+    font-weight: bold;
+    color: #13366D;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+
+}
+li a:hover{
+    text-decoration: underline;
+    color: #13366D;
+
+}
+header div a,button{
+    padding: 10px;
+}
+div a{
+    text-decoration: none;
+    color: #13366D;
+    font-weight: bold;
+    font-size: 18px;
+  
+}
+div button{
+    background-color:#0B48A8;
+    color: white;
+    border-radius: 4px;
+    /* border: 3px black;  uselesssss af */
+    padding:7px;
+}
+/* section secondaire  */
+.debut h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #13366D;
+    margin: 9px;
+}
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 40px;
+}
+.article {
+    width: 20%;
+    padding: 10px;
+    background-color:#FFF3D9;
+    border: 1px black solid;
+}
+/* button for artice */
+.btn-1{
+    border-radius: 30px;
+    border: 0px;
+    padding:5px;
+    width: 80px;
+    background-color:#13366D;
+    color: white;
+    font-weight: bold;
+    margin-bottom:9px;
+    box-shadow: black;
+    display: block;
+}
+.btn-2{
+    border-radius: 4px;
+    background-color: #0B48A8;
+    border: 1px black;
+    color: white;
+    width: 200px;
+}
+.btn-2:hover{
+    background-color:#FFF3D9 ;
+    color: #0B48A8;
+    border: 1px solid black;
+
+}
+
+.H2-article{
+    font-weight: bold;
+}
+.Contact-h2 {
+    margin-top: 90px;
+    font-weight: bold;
+}
+
+
+.article-fin{
+    border: 1px solid black;
+    padding: 10px;
+    height: 200px;
+}
+.article-fin img{
+    width: 150px;
+}
+span{
+    color: #8D8D8D;
+}
