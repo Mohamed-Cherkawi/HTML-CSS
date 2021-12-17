@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
 body {
     background-color: #FBF7EE;
-    width:90% ;
+    width:80%;
     margin: auto;
     font-family: 'Karla', sans-serif;
 
 }
+
 /* Navigation Bar STyle(Header) */
 .logo{
     width: 81px;
@@ -62,6 +63,7 @@ div a{
   
 }
 div button{
+    border: 0px;
     background-color:#0B48A8;
     color: white;
     border-radius: 4px;
@@ -73,7 +75,6 @@ div button{
 .section1 {
     height: 350px;
     display: flex;
-    justify-content: space-between;
     justify-content: center;
     
 }
@@ -101,8 +102,14 @@ h2 , span{
 }
 
     input {
-        width: 50%;
+        width: 25%;
         padding: 5px;
+    }
+    input:focus {
+        border: 2px solid blue;
+        width: 60%;
+        transition: width .35s ease-in-out;
+
     }
    .section1 button{
         background-color:#0B48A8;
@@ -130,29 +137,32 @@ h2 , span{
     .section2 {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         height: 300px;
         margin-top: 40px;
     }
     .articles {
-        border: 2px solid;
+        border: 1px solid;
         border-radius: 4px;
         width: 20%;
         padding: 0px 10px 0px 10px;
-        background-color: #FFF3D9;
+        background-color: #ffffff;
     }
     /* Section 3 Style */
     .section3 {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         height: 300px;
         margin-top: 40px;
     }
     .article {
-        border: 4px solid;
+        border: 1px solid;
         width: 20%;
+        height: 100%;
         padding: 10px;
         background-color:#FFF3D9;
-        border: 1px black solid;
+      
     }
     /* button for artice */
     .btn-1{
@@ -172,7 +182,7 @@ h2 , span{
         background-color: #0B48A8;
         border: 1px black;
         color: white;
-        width: 200px;
+        width: 80%;
     }
     .btn-2:hover{
         background-color:#FFF3D9 ;
@@ -181,6 +191,9 @@ h2 , span{
     
     }
     
+    .h2-color {
+        color: grey;
+    }
     .H2-article{
         font-weight: bold;
     }
@@ -201,13 +214,13 @@ h2 , span{
     /* Footer */
 
     footer{
-        display: block;
         padding: 30px 0;
         background-color:#13366D ;
         text-align: center;
         color: white;
         width: 100%;
         border-radius: 5px;
+        margin-top: 30px;
     }
     footer ul{
         display: flex;
@@ -230,8 +243,77 @@ h2 , span{
         color: lawngreen;
     }
 
-    /* On Mobiles screens [320px -> 428px] */
+    /* On Mobiles screens And Ipads[320px -> 691px] */
 
-    @media only screen and (max-width: 425px){
+    @media only screen and (min-width: 320px) and (max-width: 691px){
+        body {
+            width: 100%;
+            margin: 0;
+        }
+        .mobile {
+            padding-right: 10px;
+            position: absolute;
+            top: 40px;
+        }
+        .section1 {
+            flex-direction: column;
+            margin-top: 50px;
+            height: 500px;
+            align-items: center;
+        }
+        .item {
+            width : 80%;
+            
+        }
+        .trial {
+            width:80% ;
+            padding-top: 30px;
+           
+        }
+        .section2 {
+            flex-direction: column;
+            align-items: center;
+            height: 1000px;
+            margin-top: 40px;
+        }
+        .articles {
+            width: 70%;
+            height: 23%;
+            
+        }
+        .section3Header {
+            padding-left: 40px;
+        }
+        .section3 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 1300px;
+            margin-top: 40px;
+        }
+        .article {
+            width: 70%;
+            height: 20%;
+            background-color:#FFF3D9;
+            border: 1px black solid;
+        }
+        /**** Footer styling **/
+        .footer {
+            width : 100%;
+        }
+        footer ul {
+            justify-content: space-between;
+            padding-left: 0px;
+        }
+        footer a,p{
+         
+            font-size: 15px;
+        }
         
+    .article-fin{
+        width: 50%;
+        padding-left: 40px;
+        padding-right: 0px;
+        
+    }
     }
