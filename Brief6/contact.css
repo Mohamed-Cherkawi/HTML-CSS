@@ -1,3 +1,4 @@
+
 /* for desktop */
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
 µ {
@@ -161,7 +162,6 @@ footer a{
    .buttons{
        grid-column:2/4 ;
    }
- 
  
 footer ul {
     justify-content: space-between;
